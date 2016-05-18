@@ -1,0 +1,51 @@
+<!-- Team Page -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset=“UTF-8">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <link href="index_stylesheet.css" rel="stylesheet" type=“text/css">
+    <meta charset="UTF-8">
+    <title>Home</title>
+  </head>
+  <body>
+    <div id="navigation-bar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="team.html">Team</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    
+    <div style="padding-top: 5rem; padding-bottom: 5rem;"><h1>Here Goes The Squaaaaaad</h1></div>
+
+<div id="footer">
+  <h2>Law Offices of Eddy O. Marban</h2>
+  <h3>1600 Ponce De Leon Blvd., Coral Gables, Florida 33134</h3>
+    <i class="fa fa-phone fa-2x"></i>
+    <i class="fa fa-envelope fa-2x"></i>
+    <i class="fa fa-print fa-2x"></i>
+    <div class="tiny-pic">305-448-9292</div>
+    <div class="tiny-pic">Marban@laborrights.info</div>
+    <div class="tiny-pic">305-448-9477</div>
+</div>
+<!-- link -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  
+  <script>
+    window.onload = function() {
+      $(".fade-in").each(function(i, e) {
+        console.log(e);
+        setTimeout(function() {
+          $(e).css("opacity", 1);
+        }, Number($(e).attr("fade-delay")));
+      });
+    }
+    $(document).ready(function(){
+    });
+  </script>
+  </body>
+</html>
