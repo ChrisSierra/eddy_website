@@ -105,16 +105,19 @@ a:link {
 	height: 3.6rem;
 }
 
-#navigation-bar ul {
-	margin-left: 1rem;
-}
-
 #navigation-bar li {
 	font-family: 'Poiret One', cursive;
 	position: relative;
-	top: 0.1rem;
-	padding-right: 0.5rem;
+	top: 0.3rem;
 	display: inline;
+}
+
+#navigation-bar li a {
+	margin-right: -0.6rem;
+	padding-top: 1rem;
+	padding-bottom: 0.45rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
 }
 
 #main-banner {
@@ -221,10 +224,6 @@ a:link {
 	display: inline-block;
 }
 
-.about .main-content .content p{
-	padding-bottom: 1rem;
-}
-
 #aboutme {
 	position: relative;
 	top: 5rem;
@@ -238,4 +237,11 @@ a:link {
 	#navigation-bar {
 		font-size: 1.25rem;
 	}
+}
+
+#navigation-bar li a:hover {
+	transition: background-color 0.8s, color 0.8s;
+	-webkit-transition: background-color 0.8s, color 0.8s;
+	color: black;
+	background-color: silver;
 }
